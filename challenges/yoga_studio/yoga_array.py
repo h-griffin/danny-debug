@@ -13,6 +13,8 @@ class_dict = {
     '5': ['Senior Yoga', 0]
 }
 
+opt_1 = 
+
 print("""
 Welcome to Downdog Yoga Studio! 
     
@@ -93,11 +95,3 @@ while ask_reservation == True:
 
     else :
         request_num = input(f'- um... How many reservations for {class_name} would you like? \n  ')
-
-do_continue = input('would you like to make any more reservations? \n')
-
-if do_continue in yes_answers:
-    class_num = input(str('- Great! What other class would you like to sign up for? \n (1-5) \n  '))
-else:
-    print('- Okay! thanks again!')
-
